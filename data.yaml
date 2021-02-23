@@ -1,5 +1,5 @@
-train: ../input/object-detection-model/chest_xray/train/images
-val: ../input/object-detection-model/chest_xray/valid/images
+train: ./chest_xray/train/images
+val: ./chest_xray/valid/images
 
 nc: 15
 names: ['Aortic enlargement', 'Atelectasis', 'Calcification', 'Cardiomegaly', 'Consolidation', 'ILD', 'Infiltration', 'Lung Opacity', 'Nodule/Mass', 'Other lesion', 'Pleural effusion', 'Pleural thickening', 'Pneumothorax', 'Pulmonary fibrosis', 'No finding']
